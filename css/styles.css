@@ -1,0 +1,56 @@
+body {
+    background-image: url(../images/bg_img.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.main {
+    background-color: black;
+    opacity: 0.7;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px 0 orange, 
+                0 8px 22px 0 black;
+    margin: 20%;
+    margin-top: 100px;
+    padding: 20px;
+    color: white;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 4px blue, 
+                 3px 3px 4px yellow;
+} 
+
+#ol {
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+li {
+    width: 150px;
+    text-shadow: 3px 3px 3px blue, 
+                 3px 3px 3px yellow;
+    color:white;
+    text-decoration: none;
+    font-style: normal;
+    text-shadow: 3px 3px 3px blue,
+                              3px 3px 3px yellow;
+}
+
+li:hover {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.clicked {
+    color:lightgreen;
+    text-decoration: line-through;
+    font-style: italic;
+    text-shadow: none;
+}
+
